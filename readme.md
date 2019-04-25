@@ -14,10 +14,10 @@ As imagens do projeto, encontram-se neste repositórios na pasta “images”.
 ## O que esperamos:
 
 - O layout deverá ser desenvolvido fielmente ao layout/identidade visual apresentada;
-- Layout responsivo;
 - Poderá ser utilizado qualquer tipo de Framework ou biblioteca;
 
 ## Plus
+- Layout responsivo;
 - Uso de pré-processador css;
 - Padrão de Projeto;
 - Boas práticas de desenvolvimento;
