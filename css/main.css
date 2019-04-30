@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+/* HEADER AREA */
+
+header {
+  background-color: #F36C37;
+  display: flex;
+  position: relative;
+}
+
+header div {
+}
+
+.header_texto {
+  flex: 1;
+  margin: 20px 0 0 8%;
+}
+
+.header_imagem {
+  flex: 1;
+}
+
+.header_logo {
+  height: 58.3px;
+  margin: 20px 0;
+}
+
+.enfase-titulo {
+  font-size: 120px;
+}
+
+.edicao {
+  position: relative;
+  bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}
+
+.header_inscreva {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 9px;
+  border: 5px solid #fff;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  padding: 20px 40px;
+  margin: 40px 0 65px 0;
+}
+
+.empty-outline {
+  -webkit-text-stroke: 2px #fff;
+  color: #F36C37;
+}
+
+.header_foto {
+  position: absolute;
+  right: 0;
+  width: 1200px;
+  pointer-events: none;
+}
+
+.header_dots-1 {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 105px;
+  width: 125px;
+  background-image: url(../images/effects-dots.png);
+}
+
+
+.header_dots-2 {
+  position: absolute;
+  bottom: 210px;
+  right: 0;
+  height: 105px;
+  width: 525px;
+  background-image: url(../images/effects-dots.png);
+}
+
+/* PROGRAMA */
+
+.programa {
+  position: relative;
+  background-color: #573791;
+  display: flex;
+  text-align: center;
+}
+
+.programa_p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.programa_enfase {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 70px 0;
+}
+
+.programa_texto {
+  flex: 1;
+  padding: 20px;
+}
+
+.programa_imagem {
+  flex: 1;
+}
+
+.programa_foto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  height: 1224px;
+}
+
+.programa_titulo {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.programa_zigzag {
+  width: 132px;
+  margin: 20px 0 40px 0;
+}
+
+.programa_data {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.programa_inscreva {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 9px;
+  background-color: #F36C37;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  padding: 20px 40px;
+  margin: 40px 0 65px 0;
+}
+
+/* TRILHAS */
+
+.trilhas {
+  display: flex;
+  flex-direction: column;
+  background-color: #F36C37;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.trilhas_titulo {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.trilhas_zigzag {
+  width: 132px;
+}
+
+.profissoes {
+  display: flex;
+  align-content: space-between;
+  margin: 75px 0;
+}
+
+.profissoes div {
+  flex: 1;
+  margin: 0 80px;
+}
+
+.profissoes_titulo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profissoes_p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.etapas {
+
+}
+
+.etapas_titulo {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.circulos {
+  display: flex;
+  justify-content: center;
+}
+
+.circulos_uni {
+  font-size: 71px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  height: 144px;
+  width: 144px;
+  line-height: 200%;
+}
+
+.circulos_traco {
+  position: relative;
+  top: 72px;
+  height: 0;
+  width: 100px;
+  border: 4px solid #fff;
+}
+
+.datas {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 1565px;
+  margin: 20px auto;
+}
+
+.datas div {
+  flex: 1;
+}
+
+/* RODAPE */
+
+footer {
+  background-color: #33383e;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 40px;
+}
+
+.footer_topo {
+  display: flex;
+}
+
+.footer_topo > div {
+  flex: 1;
+  margin: 60px;
+}
+
+.footer_logo {
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+.footer_enfase {
+  font-weight: 700;
+}
+
+.footer_titulo {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.footer_subtitulo {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer_enderecos {
+  display: flex;
+}
+
+.footer_enderecos div {
+  margin-right: 20px;
+}
+
+.footer_baixo {
+  border-top: 1px solid #555;
+  width: 95%;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.footer_midias {
+  float: right;
+}
+
+.footer_midias a {
+  margin: 0 10px;
+}
